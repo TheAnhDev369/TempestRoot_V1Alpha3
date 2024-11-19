@@ -14,7 +14,12 @@ composer install
 composer du
 composer dump-autoload
 
-# Khởi tạo 3 thư mục với Console, Views, Controllers
+## Khởi tạo 3 thư mục với Console, Views, Controllers
 
+## Copy File cấu hình môi trường
+cp .env.example .env
+
+## Xoá bộ nhớ đệm
+php ./tempest discovery:clear
 Read all about Tempest in [the docs](https://github.com/tempestphp/tempest-docs/blob/master/01-getting-started.md).
 
